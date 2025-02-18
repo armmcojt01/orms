@@ -21,7 +21,7 @@ $firstname = "";
 $lastname = "";
 $position_name = "";
 
-if (isset($_GET['email'])) {
+if (isset($_GET['email']) && isset($_GET['position_id'])) {
     $email = $_GET['email']; 
     $position_id = $_GET['position_id'];
     
